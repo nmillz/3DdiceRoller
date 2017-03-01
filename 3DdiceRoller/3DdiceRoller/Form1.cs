@@ -14,7 +14,7 @@ namespace _3DdiceRoller
     {
         public Form1()
         {
-            InitializeComponent();
+            InitializeComponent();//hello World!!!
         }
 
         private void Form1_Load(object sender, EventArgs e)
