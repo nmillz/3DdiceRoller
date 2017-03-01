@@ -9,13 +9,17 @@ namespace _3DdiceRoller
 {
     class Dnum
     {
-        int Velocity;
+        int Velocity = -1, sides;
         int[] VectorCoords = new int[3];
         //bitmap texture;
         
        bool setVelocity()
         {
-            return true;
+            Velocity = Form1.Rand(1, 3);
+            if (Velocity >= 0)
+                return true;
+            else
+                return false;
         }
 
         bool simulateNextIteration()
@@ -35,7 +39,7 @@ namespace _3DdiceRoller
 
         int getSides()
         {
-            return 0;
+            return sides;
         }
 
         /*Dnum Dnum(int sides, bitmap texture)
