@@ -7,19 +7,34 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-//a random comment
+
 namespace _3DdiceRoller
 {
     public partial class Form1 : Form
     {
         public Form1()
         {
-            InitializeComponent();//hello World!!!
+            InitializeComponent();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
             
+        }
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void tableLayoutPanel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
