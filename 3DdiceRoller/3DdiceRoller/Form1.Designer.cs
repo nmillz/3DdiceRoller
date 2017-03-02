@@ -28,9 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.thereIsNoHelpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.versionInformationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.helpToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.rollButton = new System.Windows.Forms.Button();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
@@ -52,8 +55,6 @@
             this.colorSelect = new System.Windows.Forms.ComboBox();
             this.textLabel = new System.Windows.Forms.Label();
             this.totalBox = new System.Windows.Forms.TextBox();
-            this.versionInformationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.helpToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
@@ -90,9 +91,23 @@
             // thereIsNoHelpToolStripMenuItem
             // 
             this.thereIsNoHelpToolStripMenuItem.Name = "thereIsNoHelpToolStripMenuItem";
-            this.thereIsNoHelpToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
+            this.thereIsNoHelpToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
             this.thereIsNoHelpToolStripMenuItem.Text = "There is no help";
             this.thereIsNoHelpToolStripMenuItem.Click += new System.EventHandler(this.thereIsNoHelpToolStripMenuItem_Click);
+            // 
+            // versionInformationToolStripMenuItem
+            // 
+            this.versionInformationToolStripMenuItem.Name = "versionInformationToolStripMenuItem";
+            this.versionInformationToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
+            this.versionInformationToolStripMenuItem.Text = "Version Information";
+            this.versionInformationToolStripMenuItem.Click += new System.EventHandler(this.versionInformationToolStripMenuItem_Click);
+            // 
+            // helpToolStripMenuItem1
+            // 
+            this.helpToolStripMenuItem1.Name = "helpToolStripMenuItem1";
+            this.helpToolStripMenuItem1.Size = new System.Drawing.Size(178, 22);
+            this.helpToolStripMenuItem1.Text = "Help";
+            this.helpToolStripMenuItem1.Click += new System.EventHandler(this.helpToolStripMenuItem1_Click);
             // 
             // tableLayoutPanel1
             // 
@@ -362,20 +377,6 @@
             this.totalBox.TabIndex = 19;
             this.totalBox.TextChanged += new System.EventHandler(this.totalBox_TextChanged);
             // 
-            // versionInformationToolStripMenuItem
-            // 
-            this.versionInformationToolStripMenuItem.Name = "versionInformationToolStripMenuItem";
-            this.versionInformationToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
-            this.versionInformationToolStripMenuItem.Text = "Version Information";
-            this.versionInformationToolStripMenuItem.Click += new System.EventHandler(this.versionInformationToolStripMenuItem_Click);
-            // 
-            // helpToolStripMenuItem1
-            // 
-            this.helpToolStripMenuItem1.Name = "helpToolStripMenuItem1";
-            this.helpToolStripMenuItem1.Size = new System.Drawing.Size(178, 22);
-            this.helpToolStripMenuItem1.Text = "Help";
-            this.helpToolStripMenuItem1.Click += new System.EventHandler(this.helpToolStripMenuItem1_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -383,6 +384,7 @@
             this.ClientSize = new System.Drawing.Size(784, 611);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.menuStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "3D Dice Roller";
