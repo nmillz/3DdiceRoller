@@ -12,6 +12,7 @@ namespace _3DdiceRoller
 {
     public partial class Form1 : Form
     {
+        
         public Form1()
         {
             InitializeComponent();
@@ -64,14 +65,14 @@ namespace _3DdiceRoller
 
         private void versionInformationToolStripMenuItem_Click(object sender, EventArgs e) // ver info
         {
-            String info = " Version Number: Prototype 1.0 \n" + "Prototype Team: Noah Miller, Erin Primrose, Baughn Welch ";
-            MessageBox.Show("info", "Version Information");
+            String info = "Version Number: Prototype 1.0 \n" + "Prototype Team: Noah Miller, Erin Primrose, Baughn Welch ";
+            MessageBox.Show(info, "Version Information");
         }
 
         private void helpToolStripMenuItem1_Click(object sender, EventArgs e)//Help Message Box
         {
             string help = "Help info here";
-            MessageBox.Show("", "Help");
+            MessageBox.Show(help, "Help");
         }
     }
 }

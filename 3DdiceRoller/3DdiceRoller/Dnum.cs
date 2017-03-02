@@ -15,7 +15,7 @@ namespace _3DdiceRoller
         
        bool setVelocity()
         {
-            Velocity = Form1.Rand(1, 3);
+            //Velocity = Form1.Rand(1, 3);
             if (Velocity >= 0)
                 return true;
             else
@@ -48,4 +48,5 @@ namespace _3DdiceRoller
         }*/
        
     }
+
 }
