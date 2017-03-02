@@ -52,6 +52,8 @@
             this.colorSelect = new System.Windows.Forms.ComboBox();
             this.textLabel = new System.Windows.Forms.Label();
             this.totalBox = new System.Windows.Forms.TextBox();
+            this.versionInformationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.helpToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
@@ -78,7 +80,9 @@
             // helpToolStripMenuItem
             // 
             this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.thereIsNoHelpToolStripMenuItem});
+            this.thereIsNoHelpToolStripMenuItem,
+            this.versionInformationToolStripMenuItem,
+            this.helpToolStripMenuItem1});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
             this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
             this.helpToolStripMenuItem.Text = "Help";
@@ -88,6 +92,7 @@
             this.thereIsNoHelpToolStripMenuItem.Name = "thereIsNoHelpToolStripMenuItem";
             this.thereIsNoHelpToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
             this.thereIsNoHelpToolStripMenuItem.Text = "There is no help";
+            this.thereIsNoHelpToolStripMenuItem.Click += new System.EventHandler(this.thereIsNoHelpToolStripMenuItem_Click);
             // 
             // tableLayoutPanel1
             // 
@@ -355,6 +360,21 @@
             this.totalBox.Name = "totalBox";
             this.totalBox.Size = new System.Drawing.Size(130, 20);
             this.totalBox.TabIndex = 19;
+            this.totalBox.TextChanged += new System.EventHandler(this.totalBox_TextChanged);
+            // 
+            // versionInformationToolStripMenuItem
+            // 
+            this.versionInformationToolStripMenuItem.Name = "versionInformationToolStripMenuItem";
+            this.versionInformationToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
+            this.versionInformationToolStripMenuItem.Text = "Version Information";
+            this.versionInformationToolStripMenuItem.Click += new System.EventHandler(this.versionInformationToolStripMenuItem_Click);
+            // 
+            // helpToolStripMenuItem1
+            // 
+            this.helpToolStripMenuItem1.Name = "helpToolStripMenuItem1";
+            this.helpToolStripMenuItem1.Size = new System.Drawing.Size(178, 22);
+            this.helpToolStripMenuItem1.Text = "Help";
+            this.helpToolStripMenuItem1.Click += new System.EventHandler(this.helpToolStripMenuItem1_Click);
             // 
             // Form1
             // 
@@ -410,6 +430,8 @@
         private System.Windows.Forms.ComboBox colorSelect;
         private System.Windows.Forms.Label textLabel;
         private System.Windows.Forms.TextBox totalBox;
+        private System.Windows.Forms.ToolStripMenuItem versionInformationToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem1;
     }
 }
 

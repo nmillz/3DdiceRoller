@@ -51,5 +51,27 @@ namespace _3DdiceRoller
         {
 
         }
+
+        private void totalBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void thereIsNoHelpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void versionInformationToolStripMenuItem_Click(object sender, EventArgs e) // ver info
+        {
+            String info = " Version Number: Prototype 1.0 \n" + "Prototype Team: Noah Miller, Erin Primrose, Baughn Welch ";
+            MessageBox.Show("info", "Version Information");
+        }
+
+        private void helpToolStripMenuItem1_Click(object sender, EventArgs e)//Help Message Box
+        {
+            string help = "Help info here";
+            MessageBox.Show("", "Help");
+        }
     }
 }
