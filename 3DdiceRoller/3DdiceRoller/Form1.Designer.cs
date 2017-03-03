@@ -374,13 +374,13 @@
             "Purple",
             "White",
             "Black"});
-            this.colorSelect.Location = new System.Drawing.Point(622, 89);
+            this.colorSelect.Location = new System.Drawing.Point(622, 90);
             this.colorSelect.Margin = new System.Windows.Forms.Padding(4);
             this.colorSelect.Name = "colorSelect";
             this.colorSelect.Size = new System.Drawing.Size(97, 24);
             this.colorSelect.TabIndex = 17;
             this.colorSelect.Text = "Select color";
-            this.colorSelect.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            this.colorSelect.SelectedIndexChanged += new System.EventHandler(this.colorSelect_SelectedIndexChanged);
             // 
             // textLabel
             // 

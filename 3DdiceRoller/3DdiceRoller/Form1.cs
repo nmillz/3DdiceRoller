@@ -38,7 +38,7 @@ namespace _3DdiceRoller
 
         }
 
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private void colorSelect_SelectedIndexChanged(object sender, EventArgs e)
         {
             
         }
@@ -49,6 +49,7 @@ namespace _3DdiceRoller
             //check number
             //if num > starting num: add 1 dice of this type per 1 increment
             //else if num < starting num: remove 1 dice of this type per 1 increment
+
         }
 
         private void d6num_ValueChanged(object sender, EventArgs e)
