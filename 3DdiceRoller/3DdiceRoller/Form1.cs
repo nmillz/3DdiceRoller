@@ -40,43 +40,57 @@ namespace _3DdiceRoller
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            
         }
 
         //NumericUpDown edits
         private void d4num_ValueChanged(object sender, EventArgs e)
         {
-
+            //check number
+            //if num > starting num: add 1 dice of this type per 1 increment
+            //else if num < starting num: remove 1 dice of this type per 1 increment
         }
 
         private void d6num_ValueChanged(object sender, EventArgs e)
         {
-
+            //check number
+            //if num > starting num: add 1 dice of this type per 1 increment
+            //else if num < starting num: remove 1 dice of this type per 1 increment
         }
 
         private void d8num_ValueChanged(object sender, EventArgs e)
         {
-
+            //check number
+            //if num > starting num: add 1 dice of this type per 1 increment
+            //else if num < starting num: remove 1 dice of this type per 1 increment
         }
 
         private void d10num_ValueChanged(object sender, EventArgs e)
         {
-
+            //check number
+            //if num > starting num: add 1 dice of this type per 1 increment
+            //else if num < starting num: remove 1 dice of this type per 1 increment
         }
 
         private void d12num_ValueChanged(object sender, EventArgs e)
         {
-
+            //check number
+            //if num > starting num: add 1 dice of this type per 1 increment
+            //else if num < starting num: remove 1 dice of this type per 1 increment
         }
 
         private void d20num_ValueChanged(object sender, EventArgs e)
         {
-
+            //check number
+            //if num > starting num: add 1 dice of this type per 1 increment
+            //else if num < starting num: remove 1 dice of this type per 1 increment
         }
 
         private void d00num_ValueChanged(object sender, EventArgs e)
         {
-
+            //check number
+            //if num > starting num: add 1 dice of this type per 1 increment
+            //else if num < starting num: remove 1 dice of this type per 1 increment
         }
 
         //oops, don't know how to get rid of this without freaking the Form1.cs stuff out with errors
