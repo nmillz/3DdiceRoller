@@ -40,7 +40,42 @@ namespace _3DdiceRoller
 
         private void colorSelect_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
+            if(colorSelect.Text == "Red")
+            {
+                //set dice color red
+            }
+            else if (colorSelect.Text == "Yellow")
+            {
+                //set dice color yellow
+            }
+            else if (colorSelect.Text == "Blue")
+            {
+                //set dice color blue
+            }
+            else if (colorSelect.Text == "Green")
+            {
+                //set dice color green
+            }
+            else if (colorSelect.Text == "Orange")
+            {
+                //set dice color orange
+            }
+            else if (colorSelect.Text == "Purple")
+            {
+                //set dice color purple
+            }
+            else if (colorSelect.Text == "White")
+            {
+                //set dice color white
+            }
+            else if (colorSelect.Text == "Black")
+            {
+                //set dice color black
+            }
+            else
+            {
+                //do nothing...?
+            }
         }
 
         //NumericUpDown edits
