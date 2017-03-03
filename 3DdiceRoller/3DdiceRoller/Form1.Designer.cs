@@ -364,6 +364,7 @@
             // colorSelect
             // 
             this.colorSelect.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.colorSelect.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.colorSelect.FormattingEnabled = true;
             this.colorSelect.Items.AddRange(new object[] {
             "Red",
@@ -377,7 +378,7 @@
             this.colorSelect.Location = new System.Drawing.Point(622, 90);
             this.colorSelect.Margin = new System.Windows.Forms.Padding(4);
             this.colorSelect.Name = "colorSelect";
-            this.colorSelect.Size = new System.Drawing.Size(97, 24);
+            this.colorSelect.Size = new System.Drawing.Size(97, 23);
             this.colorSelect.TabIndex = 17;
             this.colorSelect.Text = "Select color";
             this.colorSelect.SelectedIndexChanged += new System.EventHandler(this.colorSelect_SelectedIndexChanged);
