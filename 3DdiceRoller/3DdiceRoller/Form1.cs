@@ -42,12 +42,44 @@ namespace _3DdiceRoller
 
         }
 
-        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
+        //NumericUpDown edits
+        private void d4num_ValueChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void numericUpDown4_ValueChanged(object sender, EventArgs e)
+        private void d6num_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void d8num_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void d10num_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void d12num_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void d20num_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void d00num_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        //oops, don't know how to get rid of this without freaking the Form1.cs stuff out with errors
+        private void textLabel_Click(object sender, EventArgs e)
         {
 
         }
