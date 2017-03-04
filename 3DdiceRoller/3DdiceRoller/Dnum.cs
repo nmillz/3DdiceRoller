@@ -13,14 +13,16 @@ namespace _3DdiceRoller
         int[] VectorCoords = new int[3];
         //bitmap texture;
         
-       bool setVelocity()
-        {
-            Velocity = Form1.Rand(1, 3);
-            if (Velocity >= 0)
-                return true;
-            else
-                return false;
-        }
+       //this is commented out so that the program can run
+
+       //bool setVelocity()
+       // {
+       //     Velocity = Dnum.Rand(1, 3);
+       //     if (Velocity >= 0)
+       //         return true;
+       //     else
+       //         return false;
+       // }
 
         bool simulateNextIteration()
         {
@@ -45,6 +47,11 @@ namespace _3DdiceRoller
         /*Dnum Dnum(int sides, bitmap texture)
         {
 
+        }*/
+
+        /*int Rand(int max, int min)
+        {
+            return randNum;
         }*/
        
     }
