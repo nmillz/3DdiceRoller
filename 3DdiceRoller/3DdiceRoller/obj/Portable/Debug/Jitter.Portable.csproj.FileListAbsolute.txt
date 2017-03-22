@@ -1,0 +1,5 @@
+C:\Users\noahs_000\Desktop\School everything\2016F-2017S\jitterphysics-master\source\Jitter\bin\Portable\Debug\Jitter.dll
+C:\Users\noahs_000\Desktop\School everything\2016F-2017S\jitterphysics-master\source\Jitter\bin\Portable\Debug\Jitter.pdb
+C:\Users\noahs_000\Desktop\School everything\2016F-2017S\jitterphysics-master\source\Jitter\obj\Portable\Debug\Jitter.Portable.csprojResolveAssemblyReference.cache
+C:\Users\noahs_000\Desktop\School everything\2016F-2017S\jitterphysics-master\source\Jitter\obj\Portable\Debug\Jitter.dll
+C:\Users\noahs_000\Desktop\School everything\2016F-2017S\jitterphysics-master\source\Jitter\obj\Portable\Debug\Jitter.pdb
